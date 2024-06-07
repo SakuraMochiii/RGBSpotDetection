@@ -1,4 +1,4 @@
-com.cloudpos.d3printerdemo
+com.cloudpos.diagonallinetest
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom

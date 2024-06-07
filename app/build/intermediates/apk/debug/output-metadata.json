@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.cloudpos.d3printerdemo",
+  "applicationId": "com.cloudpos.diagonallinetest",
   "variantName": "debug",
   "elements": [
     {
