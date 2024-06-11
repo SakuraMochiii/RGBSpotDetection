@@ -13,20 +13,10 @@ import android.widget.Toast;
 
 import com.cloudpos.DeviceException;
 import com.cloudpos.POSTerminal;
-import com.cloudpos.cashdrawer.CashDrawerDevice;
-import com.cloudpos.diagonallinetest.R;
-import com.cloudpos.printer.Format;
 import com.cloudpos.printer.PrinterDevice;
-import com.cloudpos.printer.PrinterHtmlListener;
 //import com.cloudpos.sdk.printer.html.PrinterHtmlListener;
-import com.orhanobut.logger.Logger;
-import com.cloudpos.diagonallinetest.util.PrintTagForQ1;
-import com.cloudpos.diagonallinetest.util.PrinterCommand;
-import com.cloudpos.diagonallinetest.util.PurchaseBillForQ1Entity;
 
-import java.io.IOException;
 import java.util.Date;
-import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
     PrinterDevice device = null;
@@ -97,16 +87,16 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "please open printer", Toast.LENGTH_SHORT).show();
                 return;
             }
-//            PrintHelper photoPrinter = new PrintHelper((Context) device);
-//            photoPrinter.setScaleMode(PrintHelper.SCALE_MODE_FIT);
-
-            Bitmap bitmap = BitmapFactory.decodeStream(mContext.getResources().getAssets().open("diagonal lines.png"));
+            Bitmap bitmap = BitmapFactory.decodeStream(mContext.getResources().getAssets().open("diag_lines.png"));
             device.printBitmap(bitmap);
             bitmap.recycle();
             device.printText("\n");
             device.printText("\n");
             device.printText("\n");
             device.printText("printBitmap end.");
+            for (int i = 0; i < 5; i++) {
+                device.printText("\n");
+            }
             device.cutPaper();
         } catch (Exception e) {
             Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
