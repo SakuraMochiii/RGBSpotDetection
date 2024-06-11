@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.cloudpos.diagonallinetest",
+  "applicationId": "com.cloudpos.rgb",
   "variantName": "debug",
   "elements": [
     {

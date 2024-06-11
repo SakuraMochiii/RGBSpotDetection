@@ -390,6 +390,7 @@ int color background_floating_material_dark 0x7f04001a
 int color background_floating_material_light 0x7f04001b
 int color background_material_dark 0x7f04001c
 int color background_material_light 0x7f04001d
+int color blue 0x7f040058
 int color bright_foreground_disabled_material_dark 0x7f04001e
 int color bright_foreground_disabled_material_light 0x7f04001f
 int color bright_foreground_inverse_material_dark 0x7f040020
@@ -409,6 +410,7 @@ int color error_color_material_dark 0x7f04002d
 int color error_color_material_light 0x7f04002e
 int color foreground_material_dark 0x7f04002f
 int color foreground_material_light 0x7f040030
+int color green 0x7f040059
 int color highlighted_text_material_dark 0x7f040031
 int color highlighted_text_material_light 0x7f040032
 int color material_blue_grey_800 0x7f040033
@@ -433,6 +435,7 @@ int color primary_text_default_material_dark 0x7f040045
 int color primary_text_default_material_light 0x7f040046
 int color primary_text_disabled_material_dark 0x7f040047
 int color primary_text_disabled_material_light 0x7f040048
+int color red 0x7f040057
 int color ripple_material_dark 0x7f040049
 int color ripple_material_light 0x7f04004a
 int color secondary_text_default_material_dark 0x7f04004b
@@ -738,6 +741,7 @@ int id async 0x7f07003d
 int id barrier 0x7f07003e
 int id beginning 0x7f07003f
 int id blocking 0x7f070040
+int id blueBackground 0x7f0700bb
 int id bottom 0x7f070041
 int id buttonPanel 0x7f070042
 int id center_vertical 0x7f070043
@@ -745,7 +749,6 @@ int id chains 0x7f070044
 int id checkbox 0x7f070045
 int id checked 0x7f070046
 int id chronometer 0x7f070047
-int id closePrinter 0x7f070048
 int id collapseActionView 0x7f070049
 int id content 0x7f07004a
 int id contentPanel 0x7f07004b
@@ -757,13 +760,13 @@ int id dialog_button 0x7f070050
 int id dimensions 0x7f070051
 int id direct 0x7f070052
 int id disableHome 0x7f070053
-int id editText_1 0x7f070054
 int id edit_query 0x7f070055
 int id end 0x7f070056
 int id expand_activities_button 0x7f070057
 int id expanded_menu 0x7f070058
 int id forever 0x7f070059
 int id gone 0x7f07005a
+int id greenBackground 0x7f0700bc
 int id group_divider 0x7f07005b
 int id groups 0x7f07005c
 int id home 0x7f07005d
@@ -773,8 +776,6 @@ int id icon_group 0x7f070060
 int id ifRoom 0x7f070061
 int id image 0x7f070062
 int id info 0x7f070063
-int id initPrinter_btn 0x7f070064
-int id initialPrinter 0x7f070065
 int id invisible 0x7f070066
 int id italic 0x7f070067
 int id left 0x7f070068
@@ -797,10 +798,10 @@ int id packed 0x7f070078
 int id parent 0x7f070079
 int id parentPanel 0x7f07007a
 int id percent 0x7f07007b
-int id printerPrint_btn 0x7f07007c
 int id progress_circular 0x7f07007d
 int id progress_horizontal 0x7f07007e
 int id radio 0x7f07007f
+int id redBackground 0x7f0700bd
 int id right 0x7f070080
 int id right_icon 0x7f070081
 int id right_side 0x7f070082
@@ -901,13 +902,16 @@ int layout abc_search_view 0x7f0a0019
 int layout abc_select_dialog_material 0x7f0a001a
 int layout abc_tooltip 0x7f0a001b
 int layout activity_main_land 0x7f0a001c
+int layout bluebg 0x7f0a0029
 int layout custom_dialog 0x7f0a001d
+int layout greenbg 0x7f0a002a
 int layout notification_action 0x7f0a001e
 int layout notification_action_tombstone 0x7f0a001f
 int layout notification_template_custom_big 0x7f0a0020
 int layout notification_template_icon_group 0x7f0a0021
 int layout notification_template_part_chronometer 0x7f0a0022
 int layout notification_template_part_time 0x7f0a0023
+int layout redbg 0x7f0a0028
 int layout select_dialog_item_material 0x7f0a0024
 int layout select_dialog_multichoice_material 0x7f0a0025
 int layout select_dialog_singlechoice_material 0x7f0a0026

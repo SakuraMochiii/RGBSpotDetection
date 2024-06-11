@@ -6,28 +6,28 @@
     android:layout_height="match_parent"
     android:focusable="true"
     android:focusableInTouchMode="true"
-    tools:context="com.cloudpos.diagonallinetest.MainActivity">
+    tools:context="com.cloudpos.rgb.MainActivity">
 
     <Button
-        android:id="@+id/initPrinter_btn"
+        android:id="@+id/redBackground"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="initPrinter"
-        android:text="open Printer"
+        android:onClick="showRed"
+        android:text="display red"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0" />
 
     <Button
-        android:id="@+id/printerPrint_btn"
+        android:id="@+id/blueBackground"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="printerPrint"
-        android:text="print text"
+        android:onClick="showBlue"
+        android:text="display blue"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,11 +37,11 @@
         app:layout_constraintVertical_bias="0.1" />
 
     <Button
-        android:id="@+id/initialPrinter"
+        android:id="@+id/greenBackground"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="printImg"
-        android:text="print pic"
+        android:onClick="showGreen"
+        android:text="display green"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,34 +49,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.2" />
-
-    <Button
-        android:id="@+id/closePrinter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="closePrinter"
-        android:text="close printer"
-        android:textAllCaps="false"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3" />
-
-    <EditText
-        android:id="@+id/editText_1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="scan input"
-        android:inputType="text"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

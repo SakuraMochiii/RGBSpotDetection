@@ -1,15 +1,20 @@
 R_DEF: Internal format may change without notice
 local
+color blue
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+color green
+color red
 drawable ic_launcher_background
-id closePrinter
-id editText_1
-id initPrinter_btn
-id initialPrinter
-id printerPrint_btn
+id blueBackground
+id greenBackground
+id home
+id redBackground
 layout activity_main_land
+layout bluebg
+layout greenbg
+layout redbg
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cloudpos.diagonallinetest">
+    package="com.cloudpos.rgb">
     <!--    android:sharedUserId="android.uid.system">-->
 
-    <uses-permission android:name="android.permission.CLOUDPOS_CASHBOX_ADAPTER" />
-    <uses-permission android:name="android.permission.CLOUDPOS_PRINTER_ADAPTER" />
-
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.CLOUDPOS_PRINTER" />
 
     <application
         android:allowBackup="true"
