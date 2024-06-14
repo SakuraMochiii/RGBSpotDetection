@@ -1,0 +1,25 @@
+{
+    "assets": {
+        "bootstrap-native/armeabi-v7a/binascii.so": "37ebb26af5e6bb668ffb678f43e23a97ccc90739",
+        "bootstrap-native/armeabi-v7a/math.so": "1cb2c6bded1a06adcbe296ed9201f98eebd57244",
+        "bootstrap.imy": "98b07f528b48151ee1bf7d66ce966eee200e2e6b",
+        "bootstrap-native/armeabi-v7a/_ctypes.so": "37b644ad7c20581c6e292c5228d07238c5c41ab6",
+        "bootstrap-native/armeabi-v7a/_datetime.so": "3e5006b5296956cebd463b922ee94fbbab9e0ff2",
+        "bootstrap-native/armeabi-v7a/zlib.so": "c1e66bc5f4b9edd6caf7fae138bb1d28402c3c6f",
+        "cacert.pem": "35a7837a3f1b960807bf46b1c95ec22792262846",
+        "bootstrap-native/armeabi-v7a/_sha512.so": "18e27a2ebc63fb871a8b67b934233cc2020608d6",
+        "bootstrap-native/armeabi-v7a/_lzma.so": "0abe536df9b1018f5f0a91e9e789adc82b8c7185",
+        "app.imy": "07314e3cfdb476d019fb09c76aaa87dde5ea896c",
+        "stdlib-common.imy": "40eb632dafba205c0d1f604a0b98421aced6a9f7",
+        "bootstrap-native/armeabi-v7a/_bz2.so": "36921a9ccc78433f2a9e0b4720a7066a17e854c8",
+        "bootstrap-native/armeabi-v7a/java/chaquopy.so": "a8b965fa2b340cfd61a843d674b581af13e1d26d",
+        "bootstrap-native/armeabi-v7a/_struct.so": "018625d1cc04e3cdf3b49cc424fb6788376c1981",
+        "requirements-armeabi-v7a.imy": "b04f3ee8f5e43fa3b162981b50bb72fe1acabb33",
+        "bootstrap-native/armeabi-v7a/_random.so": "1d48b2fd7f2989e6836c8d0a41cad8f36c30954c",
+        "stdlib-armeabi-v7a.imy": "da938dfb1ec869223c2fdbbc850496ca329cca79",
+        "requirements-common.imy": "60b2bca515825ef3cd4719f6858a3f179caeb44a",
+        "bootstrap-native/armeabi-v7a/mmap.so": "66b3faacc4eba2c4f3bec36e519cb1ef6c0d8043"
+    },
+    "extract_packages": [],
+    "python_version": "3.8"
+}

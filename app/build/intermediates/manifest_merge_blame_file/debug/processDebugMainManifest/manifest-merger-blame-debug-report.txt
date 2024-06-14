@@ -18,7 +18,7 @@
 15        android:allowBackup="true"
 15-->/home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:9:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.1.0] /home/tiana/.gradle/caches/transforms-4/821bee8ed4e7935d763e1064780f2baa/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
+16-->[androidx.core:core:1.1.0] /home/tiana/.gradle/caches/transforms-4/43ba424af421becea55d8ded143cf6ad/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
 17        android:debuggable="true"
 18        android:extractNativeLibs="false"
 19        android:icon="@mipmap/ic_launcher"

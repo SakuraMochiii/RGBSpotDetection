@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: "com.chaquo.python"
 
 android {
     namespace "com.cloudpos.rgb"
@@ -40,6 +41,14 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+chaquopy {
+    defaultConfig {
+        pip {
+            install "opencv-python"
+        }
     }
 }
 

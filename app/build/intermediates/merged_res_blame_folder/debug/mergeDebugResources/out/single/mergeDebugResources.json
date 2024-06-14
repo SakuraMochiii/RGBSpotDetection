@@ -8,6 +8,10 @@
         "source": "/home/tiana/.gradle/daemon/8.6/com.cloudpos.rgb.app-main-10:/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/tiana/.gradle/daemon/8.6/com.cloudpos.rgb.app-debug-8:/drawable_dot.xml.flat",
+        "source": "/home/tiana/.gradle/daemon/8.6/com.cloudpos.rgb.app-main-10:/drawable/dot.xml"
+    },
+    {
         "merged": "/home/tiana/.gradle/daemon/8.6/com.cloudpos.rgb.app-debug-8:/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "/home/tiana/.gradle/daemon/8.6/com.cloudpos.rgb.app-main-10:/mipmap-xhdpi/ic_launcher_round.png"
     },
@@ -26,10 +30,6 @@
     {
         "merged": "/home/tiana/.gradle/daemon/8.6/com.cloudpos.rgb.app-debug-8:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "/home/tiana/.gradle/daemon/8.6/com.cloudpos.rgb.app-main-10:/mipmap-xxxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "com.cloudpos.rgb.app-debug-8:/layout_activity_main_land.xml.flat",
-        "source": "com.cloudpos.rgb.app-main-10:/layout/activity_main_land.xml"
     },
     {
         "merged": "/home/tiana/.gradle/daemon/8.6/com.cloudpos.rgb.app-debug-8:/drawable_ic_launcher_background.xml.flat",
