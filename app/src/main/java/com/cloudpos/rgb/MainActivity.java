@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             Python.start(new AndroidPlatform(this));
         }
         try {
-            Bitmap bitmap = BitmapFactory.decodeStream(mContext.getResources().getAssets().open("blue_test.jpg"));
+            Bitmap bitmap = BitmapFactory.decodeStream(mContext.getResources().getAssets().open("red_test.jpg"));
             detect(bitmap);
         } catch (IOException e) {
             throw new RuntimeException(e);
