@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:2:1-22:12
+ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:2:1-23:12
 MERGED from [com.orhanobut:logger:1.8] /home/tiana/.gradle/caches/transforms-4/300e0efcdb826e7f80359bd8268290c0/transformed/logger-1.8/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/tiana/.gradle/caches/transforms-4/8dd1970e7aca48568f0be5241d825763/transformed/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/tiana/.gradle/caches/transforms-4/18ad70ad4853d7b2cb06fd3809b91985/transformed/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
@@ -36,13 +36,17 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/tiana/.gradle/caches/t
 		INJECTED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:2:11-69
-uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:6:5-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:6:5-68
 	android:name
-		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:6:22-75
+		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:6:22-65
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:7:22-75
 application
-ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:8:5-21:19
-INJECTED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:8:5-21:19
+ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:9:5-22:19
+INJECTED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:9:5-22:19
 MERGED from [com.orhanobut:logger:1.8] /home/tiana/.gradle/caches/transforms-4/300e0efcdb826e7f80359bd8268290c0/transformed/logger-1.8/AndroidManifest.xml:11:5-47
 MERGED from [com.orhanobut:logger:1.8] /home/tiana/.gradle/caches/transforms-4/300e0efcdb826e7f80359bd8268290c0/transformed/logger-1.8/AndroidManifest.xml:11:5-47
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/tiana/.gradle/caches/transforms-4/18ad70ad4853d7b2cb06fd3809b91985/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
@@ -56,31 +60,31 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/tiana
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /home/tiana/.gradle/caches/transforms-4/43ba424af421becea55d8ded143cf6ad/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:12:9-41
 	android:icon
-		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:13:9-40
+		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:14:9-40
 activity#com.cloudpos.rgb.MainActivity
-ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:14:9-20:20
+ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:exported
-		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:14:48-71
+		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:15:48-71
 	android:name
-		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:14:19-47
+		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:15:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:15:13-19:29
+ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:16:17-69
+ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml:19:27-74
 uses-sdk
 INJECTED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/tiana/Downloads/wizarpos/RGB/app/src/main/AndroidManifest.xml

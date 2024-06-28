@@ -26,6 +26,7 @@ import com.chaquo.python.Python;
 
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.Date;
 import java.util.Random;
 
@@ -45,6 +46,12 @@ public class MainActivity extends AppCompatActivity {
 
         if (! Python.isStarted()) {
             Python.start(new AndroidPlatform(this));
+        }
+        try {
+            Bitmap bitmap = BitmapFactory.decodeStream(mContext.getResources().getAssets().open("blue_test.jpg"));
+            detect(bitmap);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
     }
 
@@ -99,35 +106,35 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(constraintLayout);
     }
-    public Bitmap screenShot(View view) {
-        Bitmap bitmap = Bitmap.createBitmap(view.getWidth(),
-                view.getHeight() - 320, Bitmap.Config.ARGB_8888);
-        Canvas canvas = new Canvas(bitmap);
-        view.draw(canvas);
-        return bitmap;
-    }
+//    public Bitmap screenShot(View view) {
+//        Bitmap bitmap = Bitmap.createBitmap(view.getWidth(),
+//                view.getHeight() - 320, Bitmap.Config.ARGB_8888);
+//        Canvas canvas = new Canvas(bitmap);
+//        view.draw(canvas);
+//        return bitmap;
+//    }
 
-    private static void SaveImage(Bitmap finalBitmap) {
+//    private static void SaveImage(Bitmap finalBitmap) {
+//
+//        String root = Environment.getExternalStorageDirectory().getAbsolutePath();
+//        File myDir = new File(root + "/output");
+//        myDir.mkdirs();
+//
+//        String fname = "ss.jpg";
+//        File file = new File (myDir, fname);
+//        if (file.exists ()) file.delete ();
+//        try {
+//            FileOutputStream out = new FileOutputStream(file);
+//            finalBitmap.compress(Bitmap.CompressFormat.JPEG, 90, out);
+//            out.flush();
+//            out.close();
+//
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
 
-        String root = Environment.getExternalStorageDirectory().getAbsolutePath();
-        File myDir = new File(root + "/output");
-        myDir.mkdirs();
-
-        String fname = "ss.jpg";
-        File file = new File (myDir, fname);
-        if (file.exists ()) file.delete ();
-        try {
-            FileOutputStream out = new FileOutputStream(file);
-            finalBitmap.compress(Bitmap.CompressFormat.JPEG, 90, out);
-            out.flush();
-            out.close();
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    public String detect(String bitmap) {
+    public String detect(Bitmap bitmap) {
         Python py = Python.getInstance();
         PyObject spots = py.getModule("spotDetection");
         return spots.callAttr("detect", bitmap).toString();
